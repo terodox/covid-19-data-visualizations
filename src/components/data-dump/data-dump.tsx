@@ -20,6 +20,9 @@ export class DataDump {
   }
 
   render() {
+    if(!this.areas) {
+      return <img src="../../assets/loading.svg" alt="Loading"></img>;
+    } else {
       return (
         <div class="data-dump">
           <p>
@@ -27,5 +30,6 @@ export class DataDump {
           </p>
         </div>
       );
+    }
   }
 }
