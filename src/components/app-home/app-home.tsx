@@ -17,9 +17,9 @@ export class AppHome {
           Check out our docs on <a href='https://stenciljs.com'>stenciljs.com</a> to get started.
         </p>
 
-        <stencil-route-link url='/profile/stencil'>
+        <stencil-route-link url='/data-dump'>
           <button>
-            Profile page
+            Data Dump
           </button>
         </stencil-route-link>
       </div>
